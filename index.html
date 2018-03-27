@@ -1,0 +1,1394 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mitä tehtäis?</title>
+
+
+    <!-- bootstrapin css-tiedosto -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css" integrity="sha256-HEtF7HLJZSC3Le1HcsWbz1hDYFPZCqDhZa9QsCgVUdw=" crossorigin="anonymous" />
+  
+    
+<!-- jqueryn js--kirjasto -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- jqueryn ui:n js-tiedosto -->
+
+<!-- CSS TYYLIT -->
+    
+<link rel="stylesheet" href="mita1.css">
+ <link rel="stylesheet" href="hover.css"> 
+<link rel="stylesheet" type="text/css" href="mystyles.scss">
+    
+<!-- FONTIT -->
+<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+    
+<!-- bootstrapin js--kirjasto -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+<script>
+</script>
+</head>
+
+<body>
+  
+<div class="container">
+    
+ <section class="hero is-medium is-bold" id="sivunbanneri">
+ 
+    <div class="slide show" style="background-image: url('kahvilukeminen.jpeg');"></div>
+    <div class="slide" style="background-image: url('musiikinkuuntelu.jpeg');"></div>
+    <div class="slide" style="background-image: url('vrlasit.jpeg');"></div>
+     <div class="slide" style="background-image: url('konsertti.jpeg');"></div>
+    <div class="slide" style="background-image: url('museobanner.jpeg');"></div>
+
+    
+
+
+
+
+
+    
+          
+          
+        <div id="navbarMenu" class="navbar-menu">  
+        <div class="navbar-end">
+            
+        <a class="navbar-item has-text-white" style="background-color: transparent;" >
+        Mitä tehtäis?
+        </a>
+            
+        <div class="navbar-item has-dropdown is-hoverable" id="alasvetovalikko">
+       
+    
+        <a class="navbar-link" style="color:white; background-color:transparent;">
+        Kategoriat
+        </a>
+            
+        <div class="navbar-dropdown" id="loputkategoriat">
+        <a class="navbar-item has-text-white"  href="urheilu2.html" >
+        Liikunta
+        </a>
+        <a class="navbar-item has-text-white" href="viihde2.html">
+        Viihde
+        </a>
+        <a class="navbar-item has-text-white" href="kulttuuri2.html">
+        Kulttuuri
+        </a>
+            
+        <a class="navbar-item has-text-white" href="rentoutuminen2.html">
+        Rentoutuminen
+        </a>
+        
+        </div>
+    
+        </div>
+
+        <a class="navbar-item has-text-white " style="background-color: transparent;" href="yritys.html">
+        Yritys
+        </a>
+        <a class="navbar-item has-text-white" style="background-color: transparent;" href="palaute.html">
+        Ota yhteyttä
+        </a> 
+        
+        </div>
+        </div>
+        
+        
+
+      
+
+
+     
+     <br>
+     <div class="banneritekstit">
+         
+      <div class="container has-text-centered">
+        <h1  id="otsikko" >
+          Etkö millään keksi tekemistä?
+        </h1>
+          <br>
+        <h2 id="teksti">
+              Ei hätää, sovelluksemme tekee sen puolestasi!  "Mitä tehtäis?" on luotu keksimään käyttäjälle mielenkiintoista tekemistä arkeen  ja viikonlopulle! 
+        </h2><br><br>
+      </div>
+
+</div>
+</section>
+    
+ <br>
+     
+     <div class="dropdown">
+        <p style="color:white; text-align: center; font-size:25px;">Sivut</p>
+        <div class="dropdown-content" style="background-color: transparent;">
+        <a href="Index4.html">Mitä tehtäis?</a>
+        <a href="urheilu2.html">Liikunta</a>
+        <a href="viihde2.html">Viihde</a>
+        <a href="kulttuuri2.html">Kulttuuri</a>
+        <a href="rentoutuminen2.html">Rentoutuminen</a>
+        <a href="yritys.html">Yritys</a>
+        <a href="palaute.html">Palaute</a>
+        </div>
+        </div>   
+<div class="tekemiset">
+<div class="tile is-parent" style="background-image: linear-gradient(to bottom, #434343 0%, black 100%); ">
+      <article class="tile is-child">
+        <p class="title" style="color:white;">TÄHÄN TULEE MAINOS
+          </p>
+        <p style="float:right; font-size: 40px; color:white;"> MAINOS</p>
+        <div class="content">
+          <p style="color: white;"></p>
+        </div>
+      </article>
+    </div> 
+    <br>
+<div class="tile is-parent" style="background-image: linear-gradient(to bottom, #434343 0%, black 100%); ">
+       <article class="tile is-child notification is-warning" id="viikontekeminen">
+        <p class="title" style="color:white; font-size:80px; text-align:center;">Viikon Tekeminen!
+          </p>
+        <p style=" font-size: 40px; color:white; text-align:center; "> ESCAPE ROOM</p> <br>
+        <div align="center">  
+        <h1 id="alennus">-10%</h1></div> 
+           
+        <div align="center" >
+        <br> <br> <br> <br>
+        <a data-modal="modalTwo" id="button" class="hvr-back-pulse5">
+            <p>Katso lisätietoja!</p> </a>
+        </div>
+           
+        <div class="content"><br>
+          <p style="color: white; font-size:25px; text-align:center;">Tämän viikon huipputekeminen on Escape Room! Saat varauksesta 10% alennusta Mitä tehtäis koodilla!</p>
+        </div>
+      </article>
+    </div>        
+    
+    
+    <br>
+<h2 style="text-align: center; color:white; font-size: 50px;"> Parhaat tekemiset juuri nyt!</h2> <br>
+   
+    <br>
+<div class="tile is-ancestor">
+  <div class="tile is-vertical is-8">
+    <div class="tile">
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification is-primary" style="background-image: url(sportti.jpg) ;">
+          <p class="title">Sports Academy Game Night</p>
+            
+            <p class="subtitle">Peli-ilta ystävien kanssa?</p>
+            
+                  <div align="center" >
+        
+        <a data-modal="modalThree" id="button" class="hvr-back-pulse5">
+            <p>Katso lisätietoja!</p> </a>
+        </div>
+      
+        </article>
+          
+        <article class="tile is-child notification is-primary" style="background-image: url(sealife.jpeg) ;">
+          <p class="title has-text-white">Sea Life Helsinki</p>
+          <p class="subtitle">Merien nähtävyydet!</p>        
+            
+        <div align="center" >
+        
+        <a data-modal="modalFour" id="button" class="hvr-back-pulse5">
+            <p>Katso lisätietoja!</p> </a>
+        </div>
+          
+        </article>
+      </div>
+      <div class="tile is-parent"  style="height:350px;">
+        <article class="tile is-child notification is-info" style="background-image: url(lasertag.jpg) ;">
+          <p class="title">Megazone</p>
+            
+        <p class="subtitle">Laser hippaa!</p>
+            <br><br><br><br><br><br><br><br>
+        <div align="center" >
+    
+        <a data-modal="modalFive" id="button" class="hvr-back-pulse5">
+            <p>Katso lisätietoja!</p> </a>
+        </div>
+
+        </article>
+      </div>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child notification is-primary" style="background-image: url(trampoliini2.jpg) ;">
+        <p class="title">Rush Trampoliinipuisto</p>
+       <p class="subtitle">Jump around!</p>
+          <div align="center" >
+    
+        <a data-modal="modalSix" id="button" class="hvr-back-pulse5">
+            <p>Katso lisätietoja!</p> </a>
+        </div>
+          
+          
+          
+        <div class="content">
+          <!-- Content -->
+        </div>
+      </article>
+    </div>
+  </div>
+  <div class="tile is-parent">
+    <article class="tile is-child notification is-primary" style="background-image: url(boulderointi3.jpg) ;">
+      <div class="content">
+        <p class="title">Boulderointi</p>
+        <p class="subtitle">Saavuta Everest!</p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <div align="center" >
+        
+        <a data-modal="modalTwelwe" id="button" class="hvr-back-pulse5">
+            <p>Katso lisätietoja!</p> </a>
+        </div>
+        <div class="content">
+          <!-- Content -->
+        </div>
+      </div>
+    </article>
+  </div>
+    
+</div>
+
+    
+<div class="tile is-ancestor">
+  <div class="tile is-parent">
+    <article class="tile is-child box" style="background-image: url(keilaus.jpg)" >
+      <p class="title has-text-white">Fun Bowling</p>
+      <p class="subtitle has-text-white">Täyskaato!</p>
+    <br><br>
+         <div align="center" >
+        
+        <a data-modal="modalSeven" id="button" class="hvr-back-pulse5">
+            <p>Katso lisätietoja!</p> </a>
+        </div>
+        
+    </article>
+  </div>
+  <div class="tile is-parent">
+    <article class="tile is-child box" style="background-image: url(hohtominigolf1.jpg) ;">
+      <p class="title has-text-white">Hohtominigolf</p>
+      <p class="subtitle has-text-white">Puttaa puttaa!</p>
+        <br><br>
+        <div align="center" >
+        
+        <a data-modal="modalNine" id="button" class="hvr-back-pulse5">
+            <p>Katso lisätietoja!</p> </a>
+        </div>
+        
+    </article>
+  </div>
+    
+  <div class="tile is-parent">
+    <article class="tile is-child box" style="background-image: url(korkeasaari.jpg) ;">
+      <p class="title has-text-white">Korkeasaari</p>
+        <p class="subtitle has-text-white">Ammuuu!</p>
+    <br><br>
+     <div align="center" >
+        
+        <a data-modal="modalTen" id="button" class="hvr-back-pulse5">
+            <p>Katso lisätietoja!</p> </a>
+        </div>
+        
+     
+    </article>
+  </div>
+</div>
+
+<div class="tile is-ancestor">
+ <div class="tile is-parent">
+    <article class="tile is-child box" style="background-image: url(sublautailu.jpg) ;">
+      <div class="content">
+        <p class="title has-text-white">Sup Lautailu</p>
+        <p class="subtitle has-text-white">Hakuna Matata!</p>
+         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     <div align="center" >
+        
+        <a data-modal="modal14" id="button" class="hvr-back-pulse5">
+            <p>Katso lisätietoja!</p> </a>
+        </div>
+      </div>
+    </article>
+  </div>
+  <div class="tile is-vertical is-8">
+    <div class="tile">
+    <div class="tile is-parent">
+        <article class="tile is-child box" style="background-image: url(standup.png) ;">
+          <p class="title has-text-white">Apollon Standup</p>
+          <p class="subtitle has-text-white">Kysyppä joku toinen!</p>
+             <br><br><br><br><br><br><br><br>
+     <div align="center" >
+        
+        <a data-modal="modalEleven" id="button" class="hvr-back-pulse5">
+            <p>Katso lisätietoja!</p> </a>
+        </div>
+        </article>
+      </div>
+        
+     <div class="tile is-parent">
+        <article class="tile is-child box" style="background-image: url(telia.jpg) ;">
+          <p class="title has-text-white">Kuplafutis</p>
+          <p class="subtitle has-text-white">Boing!</p>
+             <br><br><br><br><br><br><br><br>
+     <div align="center" >
+        
+        <a data-modal="modal13" id="button" class="hvr-back-pulse5">
+            <p>Katso lisätietoja!</p> </a>
+        </div>
+        </article>
+      </div>
+      
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child box" style="background-image: url(kiasma.jpg) ;">
+        <p class="title has-text-white">Kiasma</p>
+        <p class="subtitle has-text-white">Nykytaiteen museo</p>
+           <br><br>
+     <div align="center" >
+        
+        <a data-modal="modal18" id="button" class="hvr-back-pulse5">
+            <p>Katso lisätietoja!</p> </a>
+        </div>
+      </article>
+    </div>
+  </div>
+ 
+</div>
+
+<div class="tile is-ancestor">
+    
+<div class="tile is-parent is-8" >
+    <article class="tile is-child box" style="background-image: url(karting.jpg)">
+      <p class="title has-text-white">Karting</p>
+      <p class="subtitle has-text-white">Oletko seuraava Jäämies?</p>
+          <br><br> <br><br> <br><br> <br><br>
+     <div align="center" >
+        
+        <a data-modal="modal16" id="button" class="hvr-back-pulse5">
+            <p>Katso lisätietoja!</p> </a>
+        </div>
+    </article>
+  </div>
+    
+    
+  <div class="tile is-parent" >
+    <article class="tile is-child box" style="background-image: url(lintsi.jpg) ;">
+      <p class="title has-text-white">Linnanmäki</p>
+      <p class="subtitle has-text-white">Lintsille!</p>
+         <br><br><br><br><br><br><br><br>
+     <div align="center" >
+        
+        <a data-modal="modal17" id="button" class="hvr-back-pulse5">
+            <p>Katso lisätietoja!</p> </a>
+        </div>
+    </article>
+  </div>
+  
+</div>    
+    
+    
+    
+</div> <br> <br><!--tekemiset-->    
+    
+    <footer class="footer">
+  <div class="columns has-text-white">
+  <div class="column" style="text-align: left;">
+    Yhteystiedot: <br>
+    Mitä tehtäis? <br>
+    digitalanimals@gmail.com <br>
+    040 7681131 <br>
+    <a href="palaute.html">Ota meihin yhteyttä!</a>
+    
+  </div>
+      
+  <div class="column" style="text-align: left;">
+    Yhteistyökumppanit:<br>
+    Sealife Helsinki <br>
+    Fitness 24/7<br>
+    Escape Room Helsinki<br>
+    Arctic Hike<br>
+  </div>
+   
+     <div class="column" style="text-align: left;">
+   Digital Animals:<br>
+   Onni Alkio <br>
+   Aleksi Berghem<br>
+   Sebastian Airaksinen<br>
+   <a href="yritys.html">Katso lisätietoa yrityssivuilta!</a><br>
+  </div>
+   <div class="column" style="text-align: left;">
+      mitatehtais.com <br>
+      2018 <br>
+      
+      
+  </div>
+      
+<div id="modalTwo" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content" align="center">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Escape Room</h2>
+    </div>
+    
+    <div class="modal-body">
+     <div class="info">
+    <p id="Otsikko">Escape Room Helsinki</p> <br><br>
+   
+    
+   
+   <p id="inffo"> 
+    Oletko valmis ratkaisemaan arvoituksen? Escape Room Helsinki tarjoaa tosielämän pakohuonepelejä aivan Helsingin keskustassa. Tiimisi lukitaan huoneeseen ja teillä on 60 minuuttia aikaa selvittää tienne ulos. Pärjätäksenne teidän tulee tehdä yhteistyötä ratkomalla arvoituksia, pulmia ja mysteerejä. Pakohuonepelit sopivat kaikille. Fyysistä voimaa ei käytetä, ainoastaan havainnointikykyjänne ja luovaa ajattelua. Valmistaudu jännityksen täytteiseen tuntiin täynnä hauskuutta ja ”ahaa!” – elämyksiä.
+    Pelejä voi pelata sisätiloissa, ulkona ja virtuaalitodellisuudessa.</p>   <br>  
+         
+<div class="columns">  
+<div class="column">
+<p id="inffo">
+Sijainti:<br>
+Bulevardi 27, 010-323 57 38 <br>
+Fabiankatu 23, 010-323 57 32 <br>
+Fredrikinkatu 34, 010-323 57 36 <br><br>
+Pelaajien määrä: 2-6 <br>
+Hinta: alkaen 80e </p><br>
+<!--
+Mitä tehtäis Bonuskoodi: AI051 
+Huom! Muista liittää koodi varauksesi Order noteihin, tai näytä koodia paikanpäällä! -->
+<a class="hvr-back-pulse5" id="button" href="https://escaperoom.fi/fi/pakohuone/" target="_blank">Tutustu nettisivuihin!</a>
+<a class="hvr-back-pulse5" id="button" href="https://escaperoom.fi/fi/#date" target="_blank">Varaa nyt!</a>
+</div>
+
+<div class="column">
+   <iframe style="height: 270px; width:270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7939.6974716741015!2d24.94485560917067!3d60.16543092003625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x37530bce421b7b15!2sEscape+Room+Helsinki%C2%AE+Escape+Game+Center!5e0!3m2!1sfi!2sfi!4v1522067462111" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+    </iframe>
+    </div>
+    </div>  
+         
+    </div>
+    </div>
+    <br> 
+    
+  </div>
+
+</div>
+      
+<div id="modalThree" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content" align="center">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Sports Academy</h2>
+    </div>
+    
+    <div class="modal-body">
+     <div class="info">
+    <p id="Otsikko">Sports Academy Game Night</p> <br><br>
+         
+   <p id="inffo"> 
+   Helsingin ydinkeskustassa, Citykäytävällä sijaitseva Sports Academy tarjoaa uskomattomat puitteet penkkiurheiluun, ruokailuun ja kaveriporukoiden illan viettoon. Pelien huumasta pääset nauttimaan joka päivä! 
+ 
+Sports Academy levittäytyy kahteen kerrokseen:  katutasolla 1. kerroksessa voit pelata Veikkauksen kasinopelejä ja 2. kerroksesta löydät reilusti tilaa ja mahtavan määrän näyttöjä, varmistavat ettet missaa hetkeäkään kuumottavista matseista tai mittelöistä.</p>   <br>  
+         
+<div class="columns">  
+<div class="column">
+<p id="inffo">
+Sijainti:<br>
+Keskuskatu 6, 00100 Helsinki<br>
+
+Pöydän varaamisen hinta:
+</p><br>
+<!--
+Mitä tehtäis Bonuskoodi: AI051 
+Huom! Muista liittää koodi varauksesi Order noteihin, tai näytä koodia paikanpäällä! -->
+<a class="hvr-back-pulse5" id="button1" href="https://www.raflaamo.fi/fi/tarjoukset/tarjous/sportin-matsit/023711714_624946" target="_blank">Katso otteluohjelma!</a>
+<a class="hvr-back-pulse5" id="button" href="https://s-varaukset.fi/online/reservation/fi/533?_ga=2.86304732.534732665.1522069293-523025285.1522069293" target="_blank">Varaa pöytä!</a>
+</div>
+
+<div class="column">
+  <iframe style="height: 320px; width:320px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.6715141275597!2d24.939770992302737!3d60.169616712560355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bcc57f83471%3A0xfb8bbb7272cb9fe!2sSports+Academy+Helsinki!5e0!3m2!1sfi!2sfi!4v1522070963355" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>  
+         
+    </div>
+    </div>
+    <br> 
+    
+  </div>
+
+</div>
+      
+      
+<div id="modalFour" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content" align="center">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Sea Life</h2>
+    </div>
+    
+    <div class="modal-body">
+     <div class="info">
+    <p id="Otsikko">Sea Life Helsinki</p> <br><br>
+   
+    
+   
+   <p id="inffo"> 
+    Lähde tutustumaan valtamerien upeaan maailmaan! Sea Life tarjoaa peruslippujen lisäksi myös käyntejä opastuksella. Koululaisille on myös oma hinnoittelu.</p>   <br>  
+         
+<div class="columns">  
+<div class="column">
+<p id="inffo">
+Sijainti:<br>
+Tivolitie 10, 00510 Helsinki <br>
+ 
+<br>
+Hinta verkosta ostettuna:<br>
+Aikuinen: 15e <br>
+Lapsi: 12e 
+</p><br>
+<!--
+Mitä tehtäis Bonuskoodi: AI051 
+Huom! Muista liittää koodi varauksesi Order noteihin, tai näytä koodia paikanpäällä! -->
+<a class="hvr-back-pulse5" id="button1" href="https://www.visitsealife.com/helsinki/" target="_blank">Tutustu nettisivuihin!</a>
+<a class="hvr-back-pulse5" id="button" href="https://www.sealifeshop.fi/tmp_sealife_v3_site_0.asp?sua=3&lang=1&s=263" target="_blank">Osta liput!</a>
+</div>
+
+<div class="column">
+   <iframe style="height: 320px; width:320px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.494544942489!2d24.937120125369255!3d60.18909819035275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469209870f047383%3A0x29ab8a3b2ae5157f!2sSea+Life+Helsinki!5e0!3m2!1sfi!2sfi!4v1522072545159" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>  
+         
+    </div>
+    </div>
+    <br> 
+    
+  </div>
+
+</div>
+<div id="modalFive" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content" align="center">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Megazone</h2>
+    </div>
+    
+    <div class="modal-body">
+     <div class="info">
+    <p id="Otsikko">Megazone</p> <br><br>
+   
+    
+   
+   <p id="inffo"> 
+  Hauska, futuristinen ja supersuosittu sisällä pelattava lasertaistelupeli, joka sopii ikään ja kuntoon katsomatta kaikille seikkailunhaluisille!</p>   <br>  
+         
+<div class="columns">  
+<div class="column">
+<p id="inffo">
+Sijainti:<br>
+Salmisaaren liikuntakeskus Energiakatu 3, Helsinki
+<br> <br>
+Hinta: <br>
+1 peli 10€/hlö <br>
+2 peli 18€/hlö <br> 
+3 peli 25€/hlö <br>
+
+</p><br>
+<!--
+Mitä tehtäis Bonuskoodi: AI051 
+Huom! Muista liittää koodi varauksesi Order noteihin, tai näytä koodia paikanpäällä! -->
+<a class="hvr-back-pulse5" id="button" href="https://mzhki.slsystems.fi/booking/gametype-selection" target="_blank">Varaa nyt!</a>
+</div>
+
+<div class="column">
+   <iframe style="height: 300px; width:300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126945.99350962586!2d24.83564686015749!3d60.18849237517949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x76014f84d8476ce5!2sMegazone+Salmisaari!5e0!3m2!1sfi!2sfi!4v1522071340269" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>  
+         
+    </div>
+    </div>
+    <br> 
+    
+  </div>
+
+</div>
+      
+<div id="modalSix" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content" align="center">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Rush Helsinki</h2>
+    </div>
+    
+    <div class="modal-body">
+     <div class="info">
+    <p id="Otsikko">Rush Trampoliinipuisto</p> <br><br>
+   
+    
+   
+   <p id="inffo"> 
+    Rush trampoliinipuistot tarjoavat liikkumisen riemua ja hauskanpitoa tuhansien neliömetrien mitalla! Puistoista nauttii varmasti kaikki, perheen pienemmistä aina aikuisiin, kuntoilijoista himotreenaajiin sekä vapaa-ajan viettäjistä temppuilun ammattilaisiin asti! Puistot soveltuvat siis kaikille ikää ja taitotasoa katsomatta! Firmaporukat, polttarit ja synttärit ovat Rushin erikoisalaa!</p>   <br>  
+         
+<div class="columns">  
+<div class="column">
+<p id="inffo">
+Sijainti:<br>
+Valimotie 25, Pitäjänmäki, Helsinki <br>
+Muuntotie 3, Tammisto, Vantaa <br>
+Hinta:<br>
+14e/h<br>
+18e/1,5h<br>
+21e/2h</p><br>
+<!--
+Mitä tehtäis Bonuskoodi: AI051 
+Huom! Muista liittää koodi varauksesi Order noteihin, tai näytä koodia paikanpäällä! -->
+<a class="hvr-back-pulse5" id="button" href="https://rushfinland.fi/hinnasto/" target="_blank">Varaa nyt!</a>
+</div>
+
+<div class="column">
+  <iframe style="height: 300px; width:300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63428.19442048184!2d24.805758291343338!3d60.211661919265104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df619aba59b41%3A0x67d20f47339d5f66!2sRush+Helsinki!5e0!3m2!1sfi!2sfi!4v1522073115685" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>  
+         
+    </div>
+    </div>
+    <br> 
+    
+  </div>
+
+</div>
+      
+ <div id="modalSeven" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content" align="center">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Fun Bowling</h2>
+    </div>
+    
+    <div class="modal-body">
+     <div class="info">
+    <p id="Otsikko">Fun Bowling</p> <br><br>
+   
+    
+   
+   <p id="inffo"> 
+Suosittu kohtaamispaikka Kallion sydämessä. 
+Fun Bowling & Bar on kymmenratainen rock –henkinen keilahalli Helsinginkadulla.
+Helsingin Urheilutalossa, Kalliossa sijaitseva keilahalli on perustettu vuonna 1961 ja on kulkenut nimellä Fun Bowling vuodesta 1995. </p>   <br>  
+         
+<div class="columns">  
+<div class="column">
+<p id="inffo">
+Sijainti:<br>
+Helsinginkatu 25, 00510 Helsinki <br> <br>
+Hinta:<br>
+Päivävuoro 10-17 Yksi rata 20e/h<br>
+Iltavuoro  17-20 Yksi rata 25e/h<br>
+Hohtokeilaus 20-22 Yksi rata 34e/h
+</p><br>
+<!--
+Mitä tehtäis Bonuskoodi: AI051 
+Huom! Muista liittää koodi varauksesi Order noteihin, tai näytä koodia paikanpäällä! -->
+<a class="hvr-back-pulse5" id="button" href="https://rushfinland.fi/hinnasto/" target="_blank">Varaa nyt!</a>
+</div>
+<div class="column">
+<p id="inffo">
+Aukioloajat:<br> <br>
+Tammikuu-maaliskuu 10-16 <br>
+Huhtikuu 10-18 <br>
+Toukokuu-elokuu 10-20 <br>
+Syyskuu 10-18 <br>
+Lokakuu-joulukuu 10-16 <br>
+</p>
+</div>
+<div class="column">
+  <iframe style="height: 300px; width:300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.649456014308!2d24.945353651299758!3d60.18653428187845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469209805daafedf%3A0x231722d8623e6c1c!2sFun+Bowling!5e0!3m2!1sfi!2sfi!4v1522074883362" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>  
+         
+    </div>
+    </div>
+    <br> 
+    
+  </div>
+
+</div> 
+      
+<div id="modalEight" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content" align="center">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Fun Bowling</h2>
+    </div>
+    
+    <div class="modal-body">
+     <div class="info">
+    <p id="Otsikko">Fun Bowling</p> <br><br>
+   
+    
+   
+   <p id="inffo"> 
+Suosittu kohtaamispaikka Kallion sydämessä. 
+Fun Bowling & Bar on kymmenratainen rock –henkinen keilahalli Helsinginkadulla.
+Helsingin Urheilutalossa, Kalliossa sijaitseva keilahalli on perustettu vuonna 1961 ja on kulkenut nimellä Fun Bowling vuodesta 1995. </p>   <br>  
+         
+<div class="columns">  
+<div class="column">
+<p id="inffo">
+Sijainti:<br>
+Helsinginkatu 25, 00510 Helsinki <br> <br>
+Hinta:<br>
+Päivävuoro 10-17 Yksi rata 20e/h<br>
+Iltavuoro  17-20 Yksi rata 25e/h<br>
+Hohtokeilaus 20-22 Yksi rata 34e/h
+</p><br>
+<!--
+Mitä tehtäis Bonuskoodi: AI051 
+Huom! Muista liittää koodi varauksesi Order noteihin, tai näytä koodia paikanpäällä! -->
+<a class="hvr-back-pulse5" id="button" href="http://funbowling.varaavuoro.fi/" target="_blank">Varaa nyt!</a>
+</div>
+<div class="column">
+<p id="inffo">
+Aukioloajat:<br> <br>
+Tammikuu-maaliskuu 10-16 <br>
+Huhtikuu 10-18 <br>
+Toukokuu-elokuu 10-20 <br>
+Syyskuu 10-18 <br>
+Lokakuu-joulukuu 10-16 <br>
+</p>
+</div>
+<div class="column">
+  <iframe style="height: 300px; width:300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.649456014308!2d24.945353651299758!3d60.18653428187845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469209805daafedf%3A0x231722d8623e6c1c!2sFun+Bowling!5e0!3m2!1sfi!2sfi!4v1522074883362" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>  
+         
+    </div>
+    </div>
+    <br> 
+    
+  </div>
+
+</div>     
+           
+ <div id="modalNine" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content" align="center">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Hohtominigolf</h2>
+    </div>
+    
+    <div class="modal-body">
+     <div class="info">
+    <p id="Otsikko">West Coast Hohtominigolf</p> <br><br>
+   
+    
+   
+   <p id="inffo" style="font-size: 18px;"> 
+Hohtogolf West Coastin hohtominigolfrata on ensimmäinen laatuaan koko Euroopassa. Ennennäkemättömät erikoistehosteet tekevät hohtominigolfista elämyksellisen ja hauskan niin ryhmille kuin yksittäisille pelaajille. Kun puttaat, tapahtuu jotain mitä et osannut odottaa. 
+
+15 yllätyksellistä hohtominigolfrataa, joista osa lukuisilla yllätyksellisillä kauhutehosteilla varustellulla kauhualueella. Lisäksi osana hohtogolfkierrosta kauhukuja, jossa ensimmäisenä Suomessa ahtaanpaikankammotehoste!
+
+Baarista viileät juomat hohtogolfkierrokselle (anniskeluoikeudet myös radoilla, anniskelu aina aukioloaikoinamme). 
+
+Ennen näkemättömät näyttävillä tehosteilla varustellut hohtominigolf-radat tarjoavat upean elämyksen, yritysryhmille, polttareihin, pikkujouluihin, illanviettäjille, sekä perheille.  
+Pelaamaan voi tulla ilman varausta, tai varauksen kanssa!         
+         </p>   <br>  
+         
+<div class="columns">  
+<div class="column">
+<p id="inffo">
+Sijainti:<br>
+Yrjönkatu 24, 00100 Helsinki<br> 
+Tasetie 8, 01510 Vantaa    <br>
+    
+Hinta:<br>
+Aikuiset 14e/hlö<br>
+Lapset alle 140cm 10e/hlö <br>
+
+</p><br>
+<!--
+Mitä tehtäis Bonuskoodi: AI051 
+Huom! Muista liittää koodi varauksesi Order noteihin, tai näytä koodia paikanpäällä! -->
+<a class="hvr-back-pulse5" id="button" href="http://www.hohtogolf.fi/flamingo/varaa.html" target="_blank">Varaa nyt!</a>
+</div>
+<div class="column">
+<p id="inffo">
+Aukioloajat:<br> <br>
+Tammikuu-maaliskuu 10-16 <br>
+Huhtikuu 10-18 <br>
+Toukokuu-elokuu 10-20 <br>
+Syyskuu 10-18 <br>
+Lokakuu-joulukuu 10-16 <br>
+</p>
+</div>
+<div class="column">
+  <iframe style="height: 270px; width:270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.649456014308!2d24.945353651299758!3d60.18653428187845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469209805daafedf%3A0x231722d8623e6c1c!2sFun+Bowling!5e0!3m2!1sfi!2sfi!4v1522074883362" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>  
+         
+    </div>
+    </div>
+    <br> 
+    
+  </div>
+
+</div>     
+   
+      
+      
+ <div id="modalTen" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content" align="center">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Korkeasaari</h2>
+    </div>
+    
+    <div class="modal-body">
+     <div class="info">
+    <p id="Otsikko">Korkeasaari</p> <br><br>
+   
+    
+   
+   <p id="inffo"> 
+Korkeasaaren eläintarha perustettiin jo aikanaan opiksi ja valistukseksi, jotta kansanpuistossa olisi ylentävää ajanvietettä. Luonto- ja ympäristötietouden välittäminen on yhä edelleen eläintarhan tärkeimpiä tehtäviä. Ympäristömme muuttuessa eläintarha on kuin ikkuna luonnon monimuotoisuuteen, erilaisiin elinympäristöihin ja niiden eläimistöön. </p>   <br>  
+         
+<div class="columns">  
+<div class="column">
+<p id="inffo">
+Sijainti:<br>
+Helsinginkatu 25, 00510 Helsinki <br> <br>
+Hinta:<br>
+Aikuinen 12e<br>
+Lapset 4-17v 6e<br>
+Lapset alle 4v <br>
+Opiskelijat, eläkeläinen 8e <br>
+</p><br>
+<!--
+Mitä tehtäis Bonuskoodi: AI051 
+Huom! Muista liittää koodi varauksesi Order noteihin, tai näytä koodia paikanpäällä! -->
+<a class="hvr-back-pulse5" id="button" href="https://www.korkeasaari.fi/" target="_blank">Tutustu nettisivuihin!</a>
+<a class="hvr-back-pulse5" id="button" href="https://oma.enkora.fi/korkeasaari/reservations2/reservations/shop/6/18/-" target="_blank">Osta lippu!</a>
+</div>
+<div class="column">
+<p id="inffo">
+Aukioloajat:<br> <br>
+Tammikuu-maaliskuu 10-16 <br>
+Huhtikuu 10-18 <br>
+Toukokuu-elokuu 10-20 <br>
+Syyskuu 10-18 <br>
+Lokakuu-joulukuu 10-16 <br>
+</p>
+</div>
+<div class="column">
+  <iframe style="height: 300px; width:300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.649456014308!2d24.945353651299758!3d60.18653428187845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469209805daafedf%3A0x231722d8623e6c1c!2sFun+Bowling!5e0!3m2!1sfi!2sfi!4v1522074883362" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>  
+         
+    </div>
+    </div>
+    <br> 
+    
+  </div>
+
+</div>     
+
+ <div id="modalEleven" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content" align="center">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Apollo Live Club</h2>
+    </div>
+    
+    <div class="modal-body">
+     <div class="info">
+    <p id="Otsikko">Apollo Live Club</p> <br><br>
+   
+    
+   
+   <p id="inffo"> 
+Huippusuosion saavuttanut Sam’s Comedy Club toiminut Helsingin Apollossa vuodesta 2008 asti.Sam’s Comedy Clubilla esiintyy suomalaisen standupin rautaiset ammattilaiset ja kirkkaimmat tähdet, jotka takaavat nauruntäyteisen ja pitkään ilahduttavan illan entisen elokuvateatterin upeissa puitteissa.
+
+Komiikan janoisille huumorin ilolientä Apollossa tarjoilevat muun muassa Sami Hedberg, Niko Kivelä, André Wickström, Heli Sutela, Ilari Johansson, Ali Jahangiri ja Tomi Walamies. Valitse suosikkisi syksyn tarjonnasta ja tule nauramaan sydämesi kyllyydestä. Sam's Comedy Clubilla vietät hauskimmat illat tilaisuudesta riippumatta!  </p>   <br>  
+         
+<div class="columns">  
+<div class="column">
+<p id="inffo">
+Sijainti:<br>
+Mannerheimintie 16, 00100 Helsinki <br> <br>
+Hinta:<br>
+Alkaen 18e
+</p><br>
+<!--
+Mitä tehtäis Bonuskoodi: AI051 
+Huom! Muista liittää koodi varauksesi Order noteihin, tai näytä koodia paikanpäällä! -->
+<a class="hvr-back-pulse5" id="button" href="http://apolloliveclub.fi/tapahtumat" target="_blank">Osta lippu!</a>
+</div>
+<div class="column">
+<p id="inffo">
+Aukioloajat:<br> <br>
+Tammikuu-maaliskuu 10-16 <br>
+Huhtikuu 10-18 <br>
+Toukokuu-elokuu 10-20 <br>
+Syyskuu 10-18 <br>
+Lokakuu-joulukuu 10-16 <br>
+</p>
+</div>
+<div class="column">
+<iframe style="height:300px; width: 300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.7232083126084!2d24.93782767325359!3d60.168760970881976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bcc88093885%3A0x11bf9c34b6749dfa!2sApollo+Live+Club!5e0!3m2!1sfi!2sfi!4v1522148010073" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>  
+         
+    </div>
+    </div>
+    <br> 
+    
+  </div>
+
+</div>     
+
+ <div id="modalTwelwe" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content" align="center">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Boulderointi</h2>
+    </div>
+    
+    <div class="modal-body">
+     <div class="info">
+    <p id="Otsikko">Kiipeilyä</p> <br><br>
+   
+    
+   
+   <p id="inffo"> 
+Helsingin Kiipeilykeskus
+Helsingin Kiipeilykeskus on Pohjois-Helsingissä sijaitseva sisäkiipeilyhalli, joka on perustettu vuonna 2002. Kiipeilykeskuksen tilat ovat Tapanilan Urheilukeskuksen Mosahallissa.  
+
+Helsingin Kiipeilykeskus on osa Tapanilan Urheilutalosäätiötä, joka ylläpitää myös Tapanilan Urheilukeskusta ja Puistolan Palloiluhallia.
+
+Kiipeilykeskuksen 1 700 neliömetriä kiipeilyseinää tarjoavat kiipeilyhaasteita niin aloittelijoille kuin kokeneillekin harrastajille. </p>   <br>  
+         
+<div class="columns">  
+<div class="column">
+<p id="inffo">
+Sijainti:<br>
+Erätie 3, 00730 Helsinki <br> <br>
+Hinta:<br>
+Aikuiset 20e<br>
+Lapset 10e<br>
+</p><br>
+<!--
+Mitä tehtäis Bonuskoodi: AI051 
+Huom! Muista liittää koodi varauksesi Order noteihin, tai näytä koodia paikanpäällä! -->
+<a class="hvr-back-pulse5" id="button1" href="http://www.kiipeilykeskus.com/" target="_blank" style="height:58px; font-size:18px;">Tutustu <br> nettisivuihin!</a>
+</div>
+<div class="column">
+<p id="inffo">
+Aukioloajat:<br> <br>
+Tammikuu-maaliskuu 10-16 <br>
+Huhtikuu 10-18 <br>
+Toukokuu-elokuu 10-20 <br>
+Syyskuu 10-18 <br>
+Lokakuu-joulukuu 10-16 <br>
+</p>
+</div>
+<div class="column">
+  <iframe style="height: 270px; width:270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126714.40078989608!2d24.862038080420763!3d60.248365528786444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6a6c4a60d164a555!2sHelsingin+Kiipeilykeskus!5e0!3m2!1sfi!2sfi!4v1522077396340" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>  
+         
+    </div>
+    </div>
+    <br> 
+    
+  </div>
+
+</div>     
+            
+ <div id="modal13" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content" align="center">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Kuplafutis</h2>
+    </div>
+    
+    <div class="modal-body">
+     <div class="info">
+    <p id="Otsikko">Kuplafutis Båltsit Helsinki</p> <br><br>
+   
+    
+   
+   <p id="inffo"> 
+Kuplafutis on laji, jossa perusidea on sama kuin perinteisessä jalkapallossa: tee enemmän maaleja kun vastustaja, niin voitat ottelun. Tosin kuplafutiksessa maalinteko jää usein toissijaiseksi asiaksi, sillä ilmalla täytetyt kuplapallot, jotka pelaajat pukevat päällensä mahdollistavat mojovien taklauksien antamista ja saamista.
+Kuplapallot suojaavat pelaajien kroppaa lantiosta ylöspäin, jonka ansiosta kaatumista ei pelätä vaan niille nauretaan.
+
+Tule viettämään mahtavat synttärit, polttarit, virkistys- tai tyky-päivät! Järjestämme kuplafutista joustavasti erikokoisille porukoille, aina viidestä henkilöstä jopa 400 henkilöön! </p>   <br>  
+         
+<div class="columns">  
+<div class="column">
+<p id="inffo">
+Sijainti:<br>
+Sisällä: Esim. Merihaan Palloiluhalli, Talin jalkapallohalli, ja monet kunnan liikuntasalit.<br><br>
+Ulkona: Esim. Telia 5G Areena, Kaivopuisto,  Väinämöisen urheilupuisto, Hesperian puisto, Töölön pallokentät, Talin pallokentät, Lauttasaaren urheilukenttä <br> <br>
+Hinta:<br>
+6-80 hlö 6:lla kuplapallolla 160e/h<br>
+6-80 hlö 10:llä kuplapallolla 220e/h<br>
+6-80 hlö 16:llä kuplapallolla 310e/h<br>
+
+</p>
+<!--
+Mitä tehtäis Bonuskoodi: AI051 
+Huom! Muista liittää koodi varauksesi Order noteihin, tai näytä koodia paikanpäällä! -->
+
+<a class="hvr-back-pulse5" id="button" href="http://www.baltsit.com/" target="_blank">Tutustu nettisivuihin!</a> 
+<a class="hvr-back-pulse5" id="button" href="http://www.baltsit.com/hinnasto" target="_blank">Varaa nyt!</a> 
+</div>
+<div class="column">
+<p id="inffo">
+Aukioloajat:<br> <br>
+Tammikuu-maaliskuu 10-16 <br>
+Huhtikuu 10-18 <br>
+Toukokuu-elokuu 10-20 <br>
+Syyskuu 10-18 <br>
+Lokakuu-joulukuu 10-16 <br>
+</p>
+</div>
+<div class="column">
+  <iframe style="height: 300px; width:300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.649456014308!2d24.945353651299758!3d60.18653428187845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469209805daafedf%3A0x231722d8623e6c1c!2sFun+Bowling!5e0!3m2!1sfi!2sfi!4v1522074883362" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>  
+         
+    </div>
+    </div>
+    <br> 
+    
+  </div>
+
+</div>     
+      
+ <div id="modal18" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content" align="center">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Kiasma</h2>
+    </div>
+    
+    <div class="modal-body">
+     <div class="info">
+    <p id="Otsikko">Nykytaiteen museo Kiasma</p> <br><br>
+   
+    
+   
+   <p id="inffo"> 
+Kiasma on nykytaiteen koti, jonne kaikki ovat tervetulleita. Kiasmassa ihastutaan, vihastutaan, hämmästytään, vaikututaan ja viihdytään.
+
+Kiasma tekee tunnetuksi ja kerää oman aikamme taidetta – sitä, mitä taiteilijat tekevät juuri nyt. Näyttelyiden lisäksi Kiasmassa järjestetään esityksiä ja tapahtumia. Rakennuksessa on myös kirjasto, kauppa ja ravintola.
+
+Kiasma on taiteen ja ihmisen kohtauspaikka. Jatkuva vuoropuhelu yleisön, ympäröivän yhteiskunnan ja taidemaailman kanssa kuuluu Kiasman arkeen.  Kiasma tarjoaa taide-elämyksiä ja uusia näkökulmia elämään.
+Kiasma on monenlaisten kohtaamisten paikka. Se on areena mielipiteiden vaihdolle sekä taiteen ja kulttuurin uudelleenmäärittelylle.</p>   <br>  
+         
+<div class="columns">  
+<div class="column">
+<p id="inffo">
+Sijainti:<br>
+Mannerheiminaukio 2, 00100 Helsinki <br> <br>
+Hinta:<br>
+Liput 14/12€ <br>
+Alle 18-vuotiaille vapaa pääsy.<br>
+Kuukauden ensimmäisenä perjantaina vapaa pääsy.
+</p>
+<!--
+Mitä tehtäis Bonuskoodi: AI051 
+Huom! Muista liittää koodi varauksesi Order noteihin, tai näytä koodia paikanpäällä! -->
+<a class="hvr-back-pulse5" id="button" href="https://kiasma.fi/" target="_blank">Tutustu nettisivuihin!</a>
+</div>
+<div class="column">
+<p id="inffo">
+Aukioloajat:<br> <br>
+Ti 10–17 <br>
+Ke – Pe 10–20.30 <br>
+La 10–18 <br>
+Su 10–17<br>
+Ma suljettu <br>
+</p>
+</div>
+<div class="column">
+  <iframe style="height:300px; width: 300px;"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.5585140454336!2d24.93492231610649!3d60.171487281961426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bccd5b0ff59%3A0x2dd5968a78ece7bb!2sMannerheiminaukio+2%2C+00101+Helsinki!5e0!3m2!1sfi!2sfi!4v1522149324280" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>  
+         
+    </div>
+    </div>
+    <br> 
+    
+  </div>
+
+</div>     
+      
+ <div id="modal14" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content" align="center">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Sup Lautailu</h2>
+    </div>
+    
+    <div class="modal-body">
+     <div class="info">
+    <p id="Otsikko">Hakuna Matata Sup Rental</p> <br><br>
+   
+    
+   
+<p id="inffo"> 
+Jätä huolet kadulle ja astu rannalle. Hakunan paratiisissa musiikki soi, ihmiset nauraa ja linnut laulaa. Kaislat huojuu, riippukeinu keinuu ja lapset juoksee. Ilmassa on rakkautta. Unohdat olevasi kaupungissa viimeistään vesille päästyäsi. Nautinto on taattu. Tervetuloa! <br>
+    
+Hakuna Matata sijaitsee kivenheiton päässä Rautatieasemasta, mutta on tunnelmaltaan kuin toisesta stratosfääristä. Linnut laulaa, liput liehuu ja aurinko paistaa (silloin kun paistaa). Suojaisa Töölönlahti tarjoaa täydelliset puitteet suppailuun sekä ensikertalaisille, että kokeneemmille merenkävijöille. Töölönlahti on avomerta suojaisampi tuulen, aaltojen ja venetrafiikin suhteen. Junaraiteiden ali menevän tunnelin läpi pääsee kuitenkin pidemmällekkin seikkailulle, ensikiksi Tokoinrantaan ja Hakaniemeen, josta voi jatkaa vaikka kauppatorille tai meloa Korkeasaaren ympäri. Tunnissa ehtii hyvin käydä Hakaniemen pitkällä sillalla asti.
+    
+</p>   <br>  
+         
+<div class="columns">  
+<div class="column">
+<p id="inffo">
+Sijainti:<br>
+Karamzininranta 4, 00100 Helsinki <br> <br>
+Hinta:<br>
+1 tunti vesillä 15 euroa<br>
+2 tuntia vesillä 25 euroa<br>
+Lisätunnit 5 euroa per tunti
+</p><br>
+<!--
+Mitä tehtäis Bonuskoodi: AI051 
+Huom! Muista liittää koodi varauksesi Order noteihin, tai näytä koodia paikanpäällä! -->
+<a class="hvr-back-pulse5" id="button" href="http://www.hakunamatata-sup.fi/" target="_blank">Tutustu nettisivuihin!</a>
+</div>
+<div class="column">
+<p id="inffo">
+Aukioloajat:<br> <br>
+Aukeaa toukokuussa! <br>
+</p>
+</div>
+<div class="column">
+  <iframe style="height:300px; width:300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.2752503956835!2d24.932716469549018!3d60.17617618940322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920a2d84f6e77f%3A0x2814a8657c936786!2sKaramzininranta+4%2C+00100+Helsinki!5e0!3m2!1sfi!2sfi!4v1522150935246" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>  
+         
+    </div>
+    </div>
+    <br> 
+    
+  </div>
+
+</div>     
+
+ <div id="modal16" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content" align="center">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Karting</h2>
+    </div>
+    
+    <div class="modal-body">
+     <div class="info">
+    <p id="Otsikko">Kart'in Club Helsinki</p> <br><br>
+   
+    
+   
+   <p id="inffo"> 
+Kart in Club on koko perheen viihtymiskeskus. Meillä viihtyy niin tyttö kuin poika, isä tai äiti, mummo tai vaari. Meiltä löytyy varmastikin Suomen parhaat ja uusimmat kartingautot, vuosittain useamman kerran vaihtuva rataprofiili, toimivat sauna- ja kokoustilat sekä illanviettoihin tarjoamme maistuvat ruuat catering-palvelustamme. </p>   <br>  
+         
+<div class="columns">  
+<div class="column">
+<p id="inffo">
+Sijainti:<br>
+Koskelantie 39, 00610 Helsinki <br> <br>
+    
+Hinta:<br>
+Yksittäisajot, n. 10 minuuttia 
+Aikuisten autolla (yli 150cm)   20€ <br>
+Lasten autolla (120 - 150cm)   15€  <br><br>
+Kimppakisa n. 30 minuuttia, maximissaan 15 kuljettajaa, minimi kuljettaja määrä 8.
+Arkisin 59e/hlö
+Viikonloppuisin 49e/hlö <br> <br>
+
+Huom! Yksityisajoille ei aikavarauksia
+</p><br>
+<!--
+Mitä tehtäis Bonuskoodi: AI051 
+Huom! Muista liittää koodi varauksesi Order noteihin, tai näytä koodia paikanpäällä! -->
+<a class="hvr-back-pulse5" id="button" href="http://www.kic.fi/helsinki/" target="_blank">Tutustu nettisivuihin!</a>
+<a class="hvr-back-pulse5" id="button" href="http://www.webropolsurveys.com/Answer/SurveyParticipation.aspx?SDID=Fin390076&SID=30cf743a-10b6-4e23-bafe-db31ece4c7ff&dy=1893882861" target="_blank">Varaa nyt!</a>
+</div>
+<div class="column">
+<p id="inffo">
+Aukioloajat:<br> <br>
+Rata<br>
+Ti-Pe   14:00-21:00<br>
+La      10:00-20:00<br>
+Su      11:00-19:00  <br>
+Myynti 
+Ti-Pe 09:00-21:00<br>
+La 10:00-20:00<br>
+Su 11:00-19:00<br>
+Toimisto <br>
+Ma-Pe 09:00-17:00<br>
+</p>
+</div>
+<div class="column">
+  <iframe style="height:300px; width:300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1981.9280502197294!2d24.966349344419445!3d60.21502130345072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469209a5ab1d01b7%3A0x5b512546f518e819!2sKoskelantie+39%2C+00610+Helsinki!5e0!3m2!1sen!2sfi!4v1522157202515" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>  
+         
+    </div>
+    </div>
+    <br> 
+    
+  </div>
+
+</div>     
+ 
+ <div id="modal17" class="modal">
+
+<!-- Modal content -->
+<div class="modal-content" align="center">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Linnanmäki</h2>
+    </div>
+    
+    <div class="modal-body">
+     <div class="info">
+    <p id="Otsikko">Linnanmäki</p> <br><br>
+   
+    
+   
+   <p id="inffo"> 
+Linnanmäki on Suomen vanhin ja suosituin huvipuisto, joka sijaitsee Helsingin Alppilassa. Linnanmäellä on yli 40 huvipuistolaitetta, runsaasti erilaisia pelejä sekä ravintoloita ja kahviloita. Huvipuiston suosituin laite on puinen vuoristorata, joka on ilahduttanut huvittelijoita jo vuodesta 1951 alkaen. </p>   <br>  
+         
+<div class="columns">  
+<div class="column">
+<p id="inffo">
+Sijainti:<br>
+Tivolikuja 1, 00510 Helsinki <br> <br>
+    
+Hinta:<br>
+Maksuton sisäänpääsy!<br>
+Ranneke 39e<br>
+Iltaranneke 30e<br>
+Laitelippu 8e<br>
+</p><br>
+<!--
+Mitä tehtäis Bonuskoodi: AI051 
+Huom! Muista liittää koodi varauksesi Order noteihin, tai näytä koodia paikanpäällä! -->
+<a class="hvr-back-pulse5" id="button" href="https://www.linnanmaki.fi/fi/" target="_blank">Tutustu nettisivuihin!</a>
+
+</div>
+<div class="column">
+<p id="inffo">
+Aukioloajat:<br> <br>
+Aukeaa 27. Huhtikuuta!
+</p>
+</div>
+<div class="column">
+  <iframe style="height:300px; width:300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.5664749144732!2d24.93893008607217!3d60.18790769701964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469209874401d469%3A0x5992a2a22448083a!2sLinnanm%C3%A4ki!5e0!3m2!1sfi!2sfi!4v1522161057809" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>  
+         
+    </div>
+    </div>
+    <br> 
+    
+  </div>
+
+</div>      
+      
+</div>
+</footer>
+    
+</div><!-- koko sivun container-->
+    
+ 
+
+<script type="text/javascript">    
+    
+function cycleBackgrounds() {
+    var index = 0;
+ 
+    $imageEls = $('#sivunbanneri .slide'); // Get the images to be cycled.
+ 
+    setInterval(function () {
+        // Get the next index.  If at end, restart to the beginning.
+        index = index + 1 < $imageEls.length ? index + 1 : 0;
+        
+        // Show the next
+        $imageEls.eq(index).addClass('show');
+        
+        // Hide the previous
+        $imageEls.eq(index - 1).removeClass('show');
+    }, 3000);
+};
+ 
+// Document Ready.
+$(function () {
+    cycleBackgrounds();
+}); 
+    
+var modalBtns = [...document.querySelectorAll("#button")];
+modalBtns.forEach(function(btn){
+  btn.onclick = function() {
+    var modal = btn.getAttribute('data-modal');
+    document.getElementById(modal).style.display = "block";
+  }
+});
+var closeBtns = [...document.querySelectorAll(".close")];
+closeBtns.forEach(function(btn){
+  btn.onclick = function() {
+    var modal = btn.closest('.modal');
+    modal.style.display = "none";
+  }
+});
+window.onclick = function(event) {
+  if (event.target.className === "modal") {
+    event.target.style.display = "none";
+  }
+}
+    
+</script>
+
+
+
+<br><br><br>
+
+
+</body>
+</html>
