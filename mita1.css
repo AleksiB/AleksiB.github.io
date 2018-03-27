@@ -1,0 +1,414 @@
+html, body {
+    max-height: 3000px;
+    background-color: black;
+    background-image: linear-gradient(to bottom, #434343 0%, black 100%); 
+    background-repeat:no-repeat;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+
+    
+
+.hero {
+    
+    text-align: center;
+    border: 5px solid white;
+   height:300px;
+
+} 
+
+.banneritekstit{
+    max-height: 350px;
+}
+
+.navbar-brand p{
+    text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black;
+    font-family: 'Ropa Sans', sans-serif;
+    
+}
+
+
+
+
+
+
+
+.navbar-menu{
+    font-size:25px;
+    text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black;
+   /* position: absolute;
+    left: 350px;
+    top: 10px; */
+}
+
+#alennus {
+    color:white; 
+    height:100px; 
+    width:250px; 
+    font-size: 100px; 
+    text-align:center; 
+    background-color:white; 
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    border-radius: 15px;
+}
+
+
+
+#teksti {
+   font-family: 'Ropa Sans', sans-serif;
+    text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black; 
+    font-size: 26px;
+    color:white;
+ 
+}
+
+#button{
+    display:inline-block;
+    border-radius: 10px;
+    height:40px;
+    width:200px;
+    border:2px solid black;
+    font-size: 20px;
+    text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black; 
+    color:white;
+    text-decoration:none;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+#button1{
+    display:inline-block;
+    border-radius: 10px;
+    height:40px;
+    width:200px;
+    border:2px solid black;
+    font-size: 20px;
+    text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black; 
+    color:white;
+    text-decoration:none;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+.modal-content{
+    height:700px;
+    width:1000px;
+    position: fixed;
+    top: 5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.95;
+    
+    background-image: linear-gradient(to bottom, #434343 0%, black 100%); 
+
+}
+
+   .modal-header {
+    opacity: 0.9;
+    padding: 14px 16px;
+    background-color: #ff3860;
+    color: white;
+    font-size: 22px;
+}
+.modal-body {
+font-size: 25px;
+max-height: 100%;
+
+
+
+}
+
+.close {
+    color: black;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#Otsikko {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 40px;
+    color:white;
+    float:left;
+    padding-left: 10px;
+}
+
+.info{
+    
+    max-height: 100%;
+    width:950px;
+    float:left;
+    padding-left: 5px;
+    padding-top: 5px;
+    border: 2px solid grey;
+}
+
+#inffo {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 20px;
+    text-align:left;
+    color:white;
+    padding-left: 10px;
+}
+
+
+ 
+.container {
+    max-width:100%;
+
+}
+
+.container1 {
+   
+}
+
+#sivunbanneri {
+    
+    position: relative;
+    overflow: hidden;
+}
+    .slide {
+        
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 100%;
+        transition: opacity 1s ease-in-out;
+ 
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+ 
+        opacity: 0;
+}
+        .show {
+            opacity: 1;
+        }
+    
+
+
+
+
+
+#otsikko {
+    font-family: 'Ropa Sans', sans-serif;
+  text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black;
+  font-size: 50px;   
+   margin-top: 0;
+color:white;
+  
+}
+
+
+
+
+#alasvetovalikko {
+   background-color:transparent;
+} 
+#loputkategoriat {
+    font-size: 18px;
+border:2px solid white; 
+ background-color: lightgrey;
+   
+    
+}
+
+#loputkategoriat a:hover {
+    background-color:white;
+    
+}
+
+#nimet {
+    font-size: 30px;
+}
+
+
+.columns{
+    max-width: 1314px;
+    text-align: center; 
+    background-color: transparent;
+   
+}
+
+.tile{
+     text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black; 
+    
+}
+
+/* NAPPIEN HOVER MÄÄRITYKSET */
+
+
+
+#nappiu{
+    float:right;
+    height: 50px;
+    width: 200px; 
+    
+   /* background: linear-gradient(to right, #B7F8DB , #50A7C2); */
+    color: white;
+    font-size: 25px;
+    font-family: 'Ropa Sans', sans-serif;
+    border:2px solid black;
+    text-decoration:none;
+    text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black;
+} 
+
+
+
+ 
+#nappik{
+    height: 50px;
+    width: 200px; 
+    
+   
+    color: white;
+    font-size: 25px;
+       font-family: 'Ropa Sans', sans-serif;
+    border:2px solid black;
+   text-decoration:none;
+    text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black;
+} 
+
+
+.footer{
+    background-color: dimgrey;
+    height:200px;
+    border-radius: 15px;
+
+}
+.footer p {
+    color:white;
+    
+}
+
+footer a {
+    color: white;
+     
+}
+#nappiv{
+   
+    
+    height: 50px;
+    width: 200px; 
+   
+   /* background: linear-gradient(to right, #ff512f , #dd2476); */
+    color: white;
+    font-size: 25px;
+     font-family: 'Ropa Sans', sans-serif;
+    border:2px solid black;
+   text-decoration:none;
+    text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black; 
+} 
+
+#nappir {
+    float:left;
+    height: 50px;
+    width: 200px;
+    
+  
+    color: white;
+    font-size: 25px;
+    border:2px solid black;
+    text-decoration:none;
+     font-family: 'Ropa Sans', sans-serif;
+    text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black;
+    
+}
+
+#viikontekeminen{
+    background-image: url(arvoitus.jpeg); 
+    height: 350px; 
+    width: 1200px;
+}
+
+
+.dropdown{
+display:none;
+text-align: center;
+background-color: transparent;
+}
+
+ .tile {
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+
+@media only screen and (max-width:800px) {
+ 
+  .container {
+    width: 100%; 
+  }
+    
+    .dropdown{
+        display:block;
+    }
+    .dropdown:hover .dropdown-content {
+    display: block;
+}
+    .modal-content{
+    
+    max-width:725px;
+    height: 100%;
+        position: fixed; 
+    }
+    .modal-body {
+max-width:725px;
+max-height: 100%;
+        }
+    
+    .info{
+    max-width: 700px;
+    }
+    
+    #viikontekeminen {
+    background-image: url(arvoitus.jpeg); 
+    width:100%;
+    
+    
+    }
+    .tile {
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .footer{
+     height:100%;   
+        
+    }
+@media only screen and (max-width:500px) {
+  
+  .container {
+    width: 100%;
+  }
+    
+    .modal-content{
+    
+    max-width:380px;
+    height: 100%;
+        position: fixed; 
+    }
+    .modal-body {
+max-width:380px;
+max-height: 100%;
+        }
+    
+    .info{
+    max-width: 350px;
+    }
+    
+    .footer{
+     height:100%;   
+        
+    }
+}
+
+@import "./sass/utilities/_all"
+@import "./sass/grid/columns"
+@import "./sass/utilities/initial-variables"        
+@import "../bulma"
