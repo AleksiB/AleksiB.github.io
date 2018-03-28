@@ -1,0 +1,102 @@
+ @media (min-width: 696px) {
+    columns{
+        width:50%;
+     }
+  
+}
+.hero-body {
+    max-height: 200px;
+    
+}
+
+.navbar-end {
+  border:2px solid white; 
+    background-color:aquamarine;
+     
+}
+.navbar-end {
+    color:dodgerblue;
+}
+
+#alasvetovalikko {
+   background-color:#F95F62;
+}
+#loputkategoriat {
+color:dodgerblue;
+background-color:aquamarine;
+ border:2px solid white; 
+}
+
+.container1 {
+     text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black;
+}
+#h2vari {
+    color:white;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#h3vari {
+    color:white;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+
+#minigolf  {
+    background: url(minigolf1.jpg);
+    height: 100%;
+    width: 100%;
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+}    
+  
+#tennis {
+    background: url(tennis1.jpg);
+    height: 100%;
+    width: 100;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+#boulderointi  {
+    background: url(boulderointi.jpeg);
+    height: 100%;
+    width: 100%;
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+}    
+#uinti  {
+    background: url(uinti.jpg);
+    height: 100%;
+    width: 100%;
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+}    
+
+#sulkapallo  {
+    background: url(sulkapallo.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}    
+
+#koripallo  {
+    background: url(koripallo.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}    
+#rullanappi {
+   display: flex;
+  justify-content: center;
+}
+
+
+#viesti {font-family: 'Raleway', sans-serif;
+    border: 1px solid black;
+    border-radius: 3px;}
+
+
+
+
+@import "../bulma";

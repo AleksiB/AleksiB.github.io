@@ -1,0 +1,397 @@
+  @media (min-width: 696px) {
+    columns{
+        width:50%;
+     }
+}
+
+html, body {
+    /* background-color: #4E5FFF; */
+background-image: linear-gradient(to bottom, #434343 0%, black 100%);
+   /* font-family: 'Amaranth', sans-serif; */
+    font-family: 'Ropa Sans', sans-serif;
+    height:100%;
+}
+          
+
+#bannerikuva{
+    height: 300px;
+    background: url(yhteysbanneri.png);
+}
+
+.hero-body {
+    max-height: 300px;
+    font-family: 'Ropa Sans', sans-serif;
+    background-size: 100%;    
+    opacity: 1;
+    border: 5px solid grey;
+    text-shadow: -0.8px 0 black, 0 0.8px black, 0.8px 0 black, 0 -0.8px black;
+}
+
+
+
+#navbarMenu {
+    width: 100%;
+     position: absolute;
+    font-family: 'Ropa Sans', sans-serif;
+    top: 0;
+    font-size: 20px;
+    text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black;
+}
+.navbar-end {
+    color:white;
+    font-family: 'Ropa Sans', sans-serif;
+} 
+
+#alasvetovalikko {
+   background-color:transparent;
+    font-family: 'Ropa Sans', sans-serif;
+}
+#loputkategoriat {
+    font-family: 'Ropa Sans', sans-serif;
+    border:2px solid white; 
+    font-size: 18px;
+}
+
+#loputkategoriat a:hover{
+    background-color:white;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+#loputkategoriat2 {
+    font-family: 'Ropa Sans', sans-serif;
+    border:2px solid white; 
+    font-size: 18px;
+}
+
+#loputkategoriat2 a:hover{
+    background-color:white;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+#loputkategoriat3 {
+    font-family: 'Ropa Sans', sans-serif;
+    border:2px solid white; 
+    font-size: 18px;
+}
+
+#loputkategoriat3 a:hover{
+    background-color:white;
+    
+}
+
+.container1 {
+    text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black;
+    font-family: 'Ropa Sans', sans-serif;
+} 
+#h2vari {
+    color:white;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+#h3vari {
+    color:white;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+#lasertag  {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(lasertag.jpg);
+    height: 100%;
+    width: 100%;
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+}    
+  
+#lautapeli {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(lautapeli.jpg);
+    height: 100%;
+    width: 100;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+#elokuva  {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(elokuva.jpg);
+    height: 100%;
+    width: 100%;
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+}    
+#escaperoom  {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(escaperoom.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}    
+
+#rush  {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(trampoliini.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}    
+
+#hohtokeilaus  {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(hohtokeilaus.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}    
+#rullanappi {
+    font-family: 'Ropa Sans', sans-serif;
+   display: flex;
+  justify-content: center;
+}
+
+
+#palautenappi{
+    
+    
+   /* background: linear-gradient(to right, #B7F8DB , #50A7C2); */
+    color: white;
+  height: 50px;
+    width: 200px; 
+    font-size: 25px;
+    font-family: 'Ropa Sans', sans-serif;
+    border:2px solid white;
+    /*
+    border-radius: 10px; */
+    text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black;
+} 
+
+#meditointi {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(meditointi.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#kylpylä {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(kylpyl%C3%A4.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#hieronta {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(hieronta.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#jooga {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(jooga.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#käsityöt {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(k%C3%A4sity%C3%B6t.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#rullanappi {
+    font-family: 'Ropa Sans', sans-serif;
+   display: flex;
+  justify-content: center;
+}
+#banneri {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(festival.jpg);
+    max-height: 500px;
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#banneri2 {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(kulttuuri5.jpeg);
+    max-height: 500px;
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#banneri3 {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(rentoutuminen6.jpg);
+    max-height: 500px;
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#nahtavyydet {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(kirkko.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#konsertti {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(konsertti.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#tanssi {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(tanssi2.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#kirjallisuus {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(kirja.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#museo {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(museo.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#teatteri {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(teatteri.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#luonto  {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(luonto.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}  
+/* The Modal (background) */
+.modal {
+    font-family: 'Ropa Sans', sans-serif;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    font-family: 'Ropa Sans', sans-serif;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    font-family: 'Ropa Sans', sans-serif;
+    padding: 14px 16px;
+    background-color: #ff3860;
+    color: white;
+    font-size: 22px;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    font-family: 'Ropa Sans', sans-serif;
+    padding: 14px 16px;
+    background-color: #ff3860;
+    color: white;
+}
+
+
+
+#Otsikko {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 23px;
+    text-align: center;
+}
+
+#inffo {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 15px;
+    text-align:left;
+        
+}
+
+
+
+
+@import "bulma/sass/grid/columns"
+@import "bulma/sass/utilities/_all"
+@import "bulma/sass/elements/button.sass"

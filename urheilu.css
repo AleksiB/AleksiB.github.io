@@ -1,0 +1,228 @@
+    @media (min-width: 696px) {
+    columns{
+        width:50%;
+     }
+        
+}
+html, body {
+    /* background-color: #4E5FFF; */
+background-image: linear-gradient(to bottom, #434343 0%, black 100%);
+   /* font-family: 'Amaranth', sans-serif; */
+    font-family: 'Ropa Sans', sans-serif;
+    height:100%;
+}      
+         
+     
+
+.hero-body {
+    max-height: 300px;
+    background: url(urheilubanneri.jpeg);
+    background-size: 100%;    
+    opacity: 1;
+    border: 5px solid grey;
+    text-shadow: -0.8px 0 black, 0 0.8px black, 0.8px 0 black, 0 -0.8px black;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+
+#navbarMenu {
+    width: 100%;
+     position: absolute;
+     top: 0;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 20px;
+}
+
+.navbar-end {
+    color:white;
+}
+
+#alasvetovalikko {
+   background-color:transparent;
+}
+#loputkategoriat {
+    
+    background-color:white;
+    border:2px solid white; 
+    font-size: 18px;
+}
+
+#loputkategoriat a:hover{
+    background-color:white;
+    
+}
+
+.container1 {
+     text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black;
+    font-family: 'Ropa Sans', sans-serif;
+}
+#h2vari {
+    color:white;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+#h3vari {
+    color:white;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+#minigolf  {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(minigolf1.jpg);
+    height: 100%;
+    width: 100%;
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+}    
+  
+#tennis {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(tennis1.jpg);
+    height: 100%;
+    width: 100;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+#boulderointi  {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(boulderointi.jpeg);
+    height: 100%;
+    width: 100%;
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+}    
+#uinti  {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(uinti.jpg);
+    height: 100%;
+    width: 100%;
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+}    
+
+#sulkapallo  {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(sulkapallo.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}    
+
+#koripallo  {
+    font-family: 'Ropa Sans', sans-serif;
+    background: url(koripallo.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}    
+#rullanappi {
+    font-family: 'Ropa Sans', sans-serif;
+   display: flex;
+  justify-content: center;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    font-family: 'Ropa Sans', sans-serif;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 14px 16px;
+    background-color: #ff3860;
+    color: white;
+    font-size: 22px;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 14px 16px;
+    background-color: #ff3860;
+    color: white;
+}
+
+
+
+#Otsikko {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 23px;
+    text-align: center;
+}
+
+#inffo {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 15px;
+    text-align:left;
+        
+}
+
+
+
+
+
+
+
+
+@import "bulma/sass/grid/columns"
+@import "bulma/sass/utilities/_all"
+@import "bulma/sass/elements/button.sass"

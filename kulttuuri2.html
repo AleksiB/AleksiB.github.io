@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="viihde.css">
+    <link rel="stylesheet" type="text/css" href="mystyles.css">
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <link rel="stylesheet" href="jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="lightbox2-master/dist/css/lightbox.css">
+    <link rel="stylesheet" href="lightbox2-master/dist/css/lightbox.min.js">
+    <link rel="stylesheet" href="jquery-1.11.0.min.js">
+      <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <title>Kulttuuri</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+  </head>
+  <body>
+      <style>
+      .modal-header {
+    padding: 14px 16px;
+    background-color: aquamarine;
+    color: white;
+    font-size: 22px;
+}
+.modal-body {padding: 2px 16px;}
+.modal-footer {
+    padding: 14px 16px;
+    background-color: aquamarine;
+    color: white;
+}
+</style>
+<div class="container">
+     <!-----HERO ----> 
+<section class="hero is-primary" id="banneri2" >
+    
+<div class="hero-body">
+<nav class="navbar" role="navigation" aria-label="dropdown navigation">
+    <div class="container">
+        <div class="navbar-brand">
+       <h1 style="font-family: 'Caveat', cursive; font-size: 50px; color:white;" >
+           
+        </h1>
+          </div>
+        
+       <div id="navbarMenu" class="navbar-menu">  
+        <div class="navbar-end">
+       <a class="navbar-item has-text-white" style="background-color: transparent;" href="Index4.html" >
+        Mitä tehtäis?
+        </a>
+<div class="navbar-item has-dropdown is-hoverable" id="alasvetovalikko">
+       
+    
+        <a class="navbar-link" style="color:white; background-color:transparent;">
+        Kategoriat
+        </a>
+        <div class="navbar-dropdown" id="loputkategoriat2" style="background-color:transparent;">
+        <a class="navbar-item has-text-white" href="urheilu2.html" >
+        Urheilu
+        </a>
+        <a class="navbar-item has-text-white" href="viihde2.html">
+        Viihde
+        </a>
+        <a class="navbar-item has-text-white is active">
+        Kulttuuri
+        </a>
+            
+        <a class="navbar-item has-text-white" href="rentoutuminen2.html">
+        Rentoutuminen
+        </a>
+        </div>
+    
+        </div>
+
+            <a class="navbar-item has-text-white" style="background-color: transparent;" href="yritys.html">
+        Yritys
+        </a>
+             <a class="navbar-item has-text-white" style="background-color: transparent;" href="palaute.html">
+        Ota yhteyttä
+        </a> 
+        </div>
+        </div>
+        </div>
+    
+    
+      </nav>
+<div class="container1">
+<h1 class="title is-1">Kulttuuri</h1>
+<h2 class="subtitle">Sivistä itseäsi!</h2>
+</div>
+    
+</div>
+      
+</section>
+      <br>   
+    <!----Kolumnit ------>  
+      <div class="columns">
+      <div class="column is-4" >
+      <div class="card" id="tanssi">
+        <div class="card-content">
+          <h2 class="title is-3" id="h2vari">Tanssi</h2>
+        <h3 class="subtitle" id="h3vari">Katso lähimmät tanssipaikat!</h3>
+            <footer class="card-footer">
+                
+            <div class="buttons is-left ">
+                <br> <br> <br> <br>
+           <a data-modal="modal1" class="button is-info">
+              <p>Etsi Lähin Tanssipaikka</p> </a>
+            </div>
+            </footer>
+          </div> 
+          </div>
+          </div>
+          
+        <div class="column is-4">
+        <div class="card" id="nahtavyydet">
+        <div class="card-content">
+          <h2 class="title is-3" id="h2vari">Nähtävyydet</h2>
+        <h3 class="subtitle" id="h3vari">Katso lähimmät nähtävyydet!</h3>
+            <footer class="card-footer">
+            <div class="buttons is-left ">
+                <br> <br> <br> <br>
+            <a data-modal="modal2" class="button is-info">
+              <p>Etsi Lähimmät nähtävyydet</p> </a>
+            </div>
+            </footer>
+          </div> 
+          </div>
+          </div>
+    
+    
+    <div class="column is-4" >
+    <div class="card" id="teatteri">
+    <div class="card-content">
+        <h2 class="title is-3" id="h2vari">Teatteri</h2>
+        <h3 class="subtitle" id="h3vari">Katso lähimmät teatterit!</h3>
+        <footer class="card-footer">
+        <div class="buttons is-left ">
+            <br> <br> <br> <br>
+        <a data-modal="modal3" class="button is-info">
+              <p>Etsi Lähin Teatteri</p> </a>
+        </div>
+        </footer>
+        </div> 
+        </div>
+        </div>
+          <br>
+          </div>
+     
+    <div class="columns">  
+    <div class="column is-4"  >
+    <div class="card " id="museo">
+    <div class="card-content" >
+        <h2 class="title is-3" id="h2vari">Museot</h2>
+        <h3 class="subtitle" id="h3vari">Katso lähimmät museot!</h3>
+        <footer class="card-footer ">
+        <div class="buttons is-left ">
+            <br> <br> <br> <br>
+        <a data-modal="modal4" class="button is-info">
+              <p>Etsi lähin Museo</p> </a>
+        </div>
+        </footer>
+        </div> 
+        </div>
+        </div>
+          
+          <div class="column is-4" >
+    <div class="card" id="konsertti">
+    <div class="card-content">
+        <h2 class="title is-3" id="h2vari">Konsertit</h2>
+        <h3 class="subtitle" id="h3vari">Katso lähin konsertti!</h3>
+        <footer class="card-footer">
+        <div class="buttons is-left">
+            <br> <br> <br> <br>
+       <a data-modal="modal5" class="button is-info">
+              <p>Etsi Lähin Konsertti</p> </a>
+        </div>
+        </footer>
+        </div> 
+        </div>
+        </div>
+        
+             <div class="column is-4" >
+    <div class="card" id="kirjallisuus">
+    <div class="card-content">
+        <h2 class="title is-3" id="h2vari">Kirjallisuus</h2>
+        <h3 class="subtitle" id="h3vari">Katso lähin kirjasto!</h3>
+        <footer class="card-footer">
+        <div class="buttons is-left ">
+            <br> <br> <br> <br>
+        <a data-modal="modal6" class="button is-info">
+              <p>Etsi Lähin Kirjasto</p> </a>
+        </div>
+        </footer>
+        </div> 
+        </div>
+        </div>
+        </div>  
+       
+      <div>
+    <form action="/action_page.php" id="rullanappi">
+ <a class="button is-primary is-medium " id="rulla">
+  Päätä puolestani!
+ </a> 
+</form>
+    </div>
+      <br> 
+      </div>'
+        <!-- The Modal -->
+<div id="modal1" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Tanssi</h2>
+    </div>
+    <div class="modal-body"> 
+      <iframe width="600" height="450" frameborder="0" style="border:0"
+src=" https://www.google.com/maps/embed/v1/search?q=Tanssi&key=AIzaSyDUcXeGF0BfeTyfeyAZkxye-njtCvw4m9Q " allowfullscreen></iframe>  
+    </div>
+      <p id="Otsikko">Mitä tarvitset mukaan?</p>
+            <p id="inffo">- Urheiluvaatteet<br>
+      - Sisäkengät</p>
+        
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+
+</div>
+      
+        <!-- The Modal -->
+<div id="modal2" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Nähtävyydet</h2>
+    </div>
+    <div class="modal-body"> 
+      <iframe width="600" height="450" frameborder="0" style="border:0"
+src=" https://www.google.com/maps/embed/v1/search?q=Nähtävyydet&key=AIzaSyDUcXeGF0BfeTyfeyAZkxye-njtCvw4m9Q " allowfullscreen></iframe>  
+    </div>
+      <p id="Otsikko">Mitä tarvitset mukaan?</p>
+            <p id="inffo">- Sään mukainen vaatetus<br>
+      - Kamera</p>
+        
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+
+</div>
+        <!-- The Modal -->
+<div id="modal3" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Teatteri</h2>
+    </div>
+    <div class="modal-body"> 
+      <iframe width="600" height="450" frameborder="0" style="border:0"
+src=" https://www.google.com/maps/embed/v1/search?q=Teatteri&key=AIzaSyDUcXeGF0BfeTyfeyAZkxye-njtCvw4m9Q " allowfullscreen></iframe>  
+    </div>
+      <p id="Otsikko">Mitä tarvitset mukaan?</p>
+            <p id="inffo">- Teatteriin on syytä pukea hieman siistimmät vaatteet</p>
+        
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+
+</div>
+      
+        <!-- The Modal -->
+<div id="modal4" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Museo</h2>
+    </div>
+    <div class="modal-body"> 
+      <iframe width="600" height="450" frameborder="0" style="border:0"
+src=" https://www.google.com/maps/embed/v1/search?q=Museo&key=AIzaSyDUcXeGF0BfeTyfeyAZkxye-njtCvw4m9Q " allowfullscreen></iframe>  
+    </div>
+      <p id="Otsikko">Mitä tarvitset mukaan?</p>
+            <p id="inffo">- Museoon et tarvitse mitään</p>
+        
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+
+</div>
+      
+        <!-- The Modal -->
+<div id="modal5" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Konsertti</h2>
+    </div>
+    <div class="modal-body"> 
+      <iframe width="600" height="450" frameborder="0" style="border:0"
+src=" https://www.google.com/maps/embed/v1/search?q=Konsertti&key=AIzaSyDUcXeGF0BfeTyfeyAZkxye-njtCvw4m9Q " allowfullscreen></iframe>  
+    </div>
+      <p id="Otsikko">Mitä tarvitset mukaan?</p>
+            <p id="inffo">- Konserttiin on syytä ottaa korvatulpat mukaan</p>
+        
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+
+</div>
+      
+        <!-- The Modal -->
+<div id="modal6" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Kirjasto</h2>
+    </div>
+    <div class="modal-body"> 
+      <iframe width="600" height="450" frameborder="0" style="border:0"
+src=" https://www.google.com/maps/embed/v1/search?q=Kirjasto&key=AIzaSyDUcXeGF0BfeTyfeyAZkxye-njtCvw4m9Q " allowfullscreen></iframe>  
+    </div>
+      <p id="Otsikko">Mitä tarvitset mukaan?</p>
+            <p id="inffo">- Kirjasto kortin<br>
+      - Sekä pitää muistaa antaa muille lukurauha</p>
+        
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+
+</div>
+        <script>
+var modalBtns = [...document.querySelectorAll(".button")];
+modalBtns.forEach(function(btn){
+  btn.onclick = function() {
+    var modal = btn.getAttribute('data-modal');
+    document.getElementById(modal).style.display = "block";
+  }
+});
+var closeBtns = [...document.querySelectorAll(".close")];
+closeBtns.forEach(function(btn){
+  btn.onclick = function() {
+    var modal = btn.closest('.modal');
+    modal.style.display = "none";
+  }
+});
+window.onclick = function(event) {
+  if (event.target.className === "modal") {
+    event.target.style.display = "none";
+  }
+}
+</script>
+</body>
+</html>

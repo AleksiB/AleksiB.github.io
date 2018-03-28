@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="viihde.css">
+    <link rel="stylesheet" type="text/css" href="mystyles.scss">
+    <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    
+    <title>Viihde</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+        <style>
+      .modal-header {
+    padding: 14px 16px;
+    background-color: #ff3860;
+    color: white;
+    font-size: 22px;
+}
+.modal-body {padding: 2px 16px;}
+.modal-footer {
+    padding: 14px 16px;
+    background-color: #ff3860;
+    color: white;
+}
+</style>
+  </head>
+  <body class="sivu">
+     
+      
+  <div class="container">
+     <!-----HERO ----> 
+  <section class="hero is-danger" id="banneri">
+      
+  <div class="hero-body">
+    
+<nav class="navbar" role="navigation" aria-label="dropdown navigation">
+<div class="container">
+<div class="navbar-brand">
+<h1 style="font-family: 'Caveat', cursive; font-size: 50px; color:white;">
+  
+</h1>
+    
+          </div>
+        <div id="navbarMenu" class="navbar-menu">  
+        <div class="navbar-end">
+       <a class="navbar-item has-text-white" style="background-color: transparent;" href="Index4.html" >
+        Mitä tehtäis? 
+        </a>
+<div class="navbar-item has-dropdown is-hoverable" id="alasvetovalikko">
+       
+    
+        <a class="navbar-link" style="color:white; background-color:transparent;">
+        Kategoriat
+        </a>
+        <div class="navbar-dropdown" id="loputkategoriat" style="background-color:transparent;">
+        <a class="navbar-item has-text-white"  href="urheilu2.html" >
+        Urheilu
+        </a>
+        <a class="navbar-item has-text-white" href="viihde2.html">
+        Viihde
+        </a>
+        <a class="navbar-item has-text-white" href="kulttuuri2.html">
+        Kulttuuri
+        </a>
+            
+        <a class="navbar-item has-text-white" href="rentoutuminen2.html">
+        Rentoutuminen
+        </a>
+        </div>
+    
+        </div>
+
+            <a class="navbar-item has-text-white" style="background-color: transparent;" href="yritys.html">
+        Yritys
+        </a>
+             <a class="navbar-item has-text-white" style="background-color: transparent;" href="palaute.html">
+        Ota yhteyttä
+        </a> 
+        </div>
+        </div>
+        </div>
+      </nav>
+
+<div class="container1">
+      <h1 class="title is-1 has-text-white">Viihde</h1>
+        <h2 class="subtitle has-text-white">The age of Entertainment</h2>
+</div>
+</div>
+      
+  </section>
+      <br>   
+    <!----Kolumnit ------>  
+      <div class="columns">
+      <div class="column is-4" >
+      <div class="card" id="rush">
+        <div class="card-content">
+          <h2 class="title is-3" id="h2vari">Rush Trampoliinipuisto</h2>
+        <h3 class="subtitle" id="h3vari">Katso lähin puisto!</h3>
+            <footer class="card-footer">
+                
+            <div class="buttons is-left ">
+                <br> <br> <br> <br>
+            <a data-modal="modalOne" class="button is-info">
+              <p>Etsi Rush Trampoliiniouisto</p> </a>
+            </div>
+            </footer>
+          </div> 
+          </div>
+          </div>
+          
+        <div class="column is-4">
+        <div class="card" id="elokuva">
+        <div class="card-content">
+          <h2 class="title is-3" id="h2vari">Elokuviin</h2>
+        <h3 class="subtitle" id="h3vari">Tarkastele valikoimaa ja teattereita!</h3>
+            <footer class="card-footer">
+            <div class="buttons is-left ">
+                <br> <br> <br> <br>
+            <a data-modal="modalTwo" class="button is-info">
+              <p>Etsi lähimmät elokuvateatterit!</p> </a>
+            </div>
+            </footer>
+          </div> 
+          </div>
+          </div>
+    
+    
+    <div class="column is-4" >
+    <div class="card" id="escaperoom">
+    <div class="card-content">
+        <h2 class="title is-3" id="h2vari">Escape Room</h2>
+        <h3 class="subtitle" id="h3vari">Katso lähin arvoitus!</h3>
+        <footer class="card-footer">
+        <div class="buttons is-left ">
+            <br> <br> <br> <br>
+         <a data-modal="modalThree" class="button is-info">
+              <p>Etsi Escape Room</p> </a>
+        </div>
+        </footer>
+        </div> 
+        </div>
+        </div>
+          <br>
+          </div>
+     
+    <div class="columns">  
+    <div class="column is-4"  >
+    <div class="card " id="lasertag">
+    <div class="card-content" >
+        <h2 class="title is-3" id="h2vari">Laser Tag</h2>
+        <h3 class="subtitle" id="h3vari">Katso lähin Laser hippa kenttä!</h3>
+        <footer class="card-footer ">
+        <div class="buttons is-left ">
+            <br> <br> <br> <br>
+        <a data-modal="modal4" class="button is-info">
+              <p>Etsi lähin Laser Tag kenttä</p> </a>
+        </div>
+        </footer>
+        </div> 
+        </div>
+        </div>
+          
+          <div class="column is-4" >
+    <div class="card" id="lautapeli">
+    <div class="card-content">
+        <h2 class="title is-3" id="h2vari">Lautapeli-ilta!</h2>
+        <h3 class="subtitle" id="h3vari">Katso mistä löydät lautapelejä!</h3>
+        <footer class="card-footer">
+        <div class="buttons is-left">
+            <br> <br> <br> <br>
+        <a data-modal="modal5" class="button is-info">
+              <p>Etsi lautapeli kauppa</p> </a>
+        </div>
+        </footer>
+        </div> 
+        </div>
+        </div>
+        
+             <div class="column is-4" >
+    <div class="card" id="hohtokeilaus">
+    <div class="card-content">
+        <h2 class="title is-3" id="h2vari">Hohtokeilaus</h2>
+        <h3 class="subtitle" id="h3vari">Katso lähin hohtokeilauspiste!</h3>
+        <footer class="card-footer">
+        <div class="buttons is-left ">
+            <br> <br> <br> <br>
+        <a data-modal="modal6" class="button is-info">
+              <p>Etsi lähin Hohtokeilaus rata</p> </a>
+        </div>
+        </footer>
+        </div> 
+        </div>
+        </div>
+        </div>  
+       
+      <div>
+    <form action="/action_page.php" id="rullanappi">
+ <a class="button is-primary is-medium " id="rulla">
+  Päätä puolestani!
+ </a> 
+</form>
+    </div>
+      <br> 
+      </div>
+      <!-- The Modal -->
+<div id="modalOne" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Rush Trampoliinipuisto</h2>
+    </div>
+    <div class="modal-body"> 
+      <iframe width="600" height="450" frameborder="0" style="border:0"
+src=" https://www.google.com/maps/embed/v1/search?q=Rushtrampoliinipuisto&key=AIzaSyDUcXeGF0BfeTyfeyAZkxye-njtCvw4m9Q " allowfullscreen></iframe>  
+    </div>
+      <p id="Otsikko">Mitä tarvitset mukaan?</p>
+            <p id="inffo">- Urheilu vaatteet<br>
+      - Juomapullo<br>
+      - Sekä paikanpäältä joudut ostamaan Rush sukat, jotka saat omaksesi</p>
+        
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+
+</div>
+      <!-- The Modal -->
+<div id="modalTwo" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Elokuvateatterit</h2>
+    </div>
+    <div class="modal-body"> 
+      <iframe width="600" height="450" frameborder="0" style="border:0"
+src=" https://www.google.com/maps/embed/v1/search?q=Elokuvateatterit&key=AIzaSyDUcXeGF0BfeTyfeyAZkxye-njtCvw4m9Q " allowfullscreen></iframe>  
+    </div>
+      <p id="Otsikko">Mitä tarvitset mukaan?</p>
+            <p id="inffo">- Leffa snacksit<br>
+      - Juotavaa</p>
+        
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+
+</div>
+      
+       <!-- The Modal -->
+<div id="modalThree" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Escape Room</h2>
+    </div>
+    <div class="modal-body"> 
+      <iframe width="600" height="450" frameborder="0" style="border:0"
+src=" https://www.google.com/maps/embed/v1/search?q=Escaperoom&key=AIzaSyDUcXeGF0BfeTyfeyAZkxye-njtCvw4m9Q " allowfullscreen></iframe>  
+    </div>
+      <p id="Otsikko">Mitä tarvitset mukaan?</p>
+            <p id="inffo">- Hyvää tiimihenkeää<br>
+      - Päättely kykyä</p>
+        
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+
+</div>
+      
+      <!-- The Modal -->
+<div id="modal4" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Laser Tag</h2>
+    </div>
+    <div class="modal-body"> 
+      <iframe width="600" height="450" frameborder="0" style="border:0"
+src=" https://www.google.com/maps/embed/v1/search?q=Laser Tag&key=AIzaSyDUcXeGF0BfeTyfeyAZkxye-njtCvw4m9Q " allowfullscreen></iframe>  
+    </div>
+      <p id="Otsikko">Mitä tarvitset mukaan?</p>
+            <p id="inffo">- Lyhythihaisen paidan ( mielellään tumma )<br>
+      - Juomapullon pelien välistä taukoa varten</p>
+        
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+
+</div>
+      
+        <!-- The Modal -->
+<div id="modal5" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Lautapeli Ilta</h2>
+    </div>
+    <div class="modal-body"> 
+      <iframe width="600" height="450" frameborder="0" style="border:0"
+src=" https://www.google.com/maps/embed/v1/search?q=Lautapelikauppa&key=AIzaSyDUcXeGF0BfeTyfeyAZkxye-njtCvw4m9Q " allowfullscreen></iframe>  
+    </div>
+      <p id="Otsikko">Mitä tarvitset mukaan?</p>
+            <p id="inffo">- Ystäviä kenen kanssa pelata <br>
+      - Lautapelin tai pelikortit</p>
+        
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+
+</div>
+      
+              <!-- The Modal -->
+<div id="modal6" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 class="title is-3 has-text-white">Hohtokeilaus</h2>
+    </div>
+    <div class="modal-body"> 
+      <iframe width="600" height="450" frameborder="0" style="border:0"
+src=" https://www.google.com/maps/embed/v1/search?q=Hohtokeilaus&key=AIzaSyDUcXeGF0BfeTyfeyAZkxye-njtCvw4m9Q " allowfullscreen></iframe>  
+    </div>
+      <p id="Otsikko">Mitä tarvitset mukaan?</p>
+            <p id="inffo">- Kaveriporukan, kenen kanssa varaatte radan</p>
+        
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+
+</div>
+      <script>
+var modalBtns = [...document.querySelectorAll(".button")];
+modalBtns.forEach(function(btn){
+  btn.onclick = function() {
+    var modal = btn.getAttribute('data-modal');
+    document.getElementById(modal).style.display = "block";
+  }
+});
+var closeBtns = [...document.querySelectorAll(".close")];
+closeBtns.forEach(function(btn){
+  btn.onclick = function() {
+    var modal = btn.closest('.modal');
+    modal.style.display = "none";
+  }
+});
+window.onclick = function(event) {
+  if (event.target.className === "modal") {
+    event.target.style.display = "none";
+  }
+}
+</script>
+</body>
+</html>
