@@ -26,11 +26,8 @@ background-image: linear-gradient(to bottom, #434343 0%, black 100%);
 
 
 #navbarMenu {
-    width: 100%;
-     position: absolute;
-     top: 0;
-    font-family: 'Ropa Sans', sans-serif;
-    font-size: 20px;
+    font-size:25px;
+    text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black;
 }
 
 .navbar-end {
