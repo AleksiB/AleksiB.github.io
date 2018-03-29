@@ -15,7 +15,11 @@ html, body {
     border: 5px solid white;
    height:300px;
 
-} 
+}
+.hero-body {
+    background-image: url(yritysbanneri.png);
+    
+}
 
 .banneritekstit{
     max-height: 350px;
@@ -214,8 +218,9 @@ color:white;
 } 
 #loputkategoriat {
     font-size: 18px;
-border:2px solid white; 
- background-color: lightgrey;
+border:2px solid white;
+    
+ background-color:transparent;
    
     
 }
@@ -407,6 +412,7 @@ max-height: 100%;
         
     }
 }
+
 
 @import "./sass/utilities/_all"
 @import "./sass/grid/columns"
