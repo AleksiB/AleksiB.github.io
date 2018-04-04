@@ -3,7 +3,9 @@
         width:50%;
      }
 }
-
+#navbarMenu.navbar-menu.is-active {
+    background-color:black;
+}
 html, body {
     /* background-color: #4E5FFF; */
 background-image: linear-gradient(to bottom, #434343 0%, black 100%);
@@ -43,13 +45,14 @@ background-image: linear-gradient(to bottom, #434343 0%, black 100%);
     font-family: 'Ropa Sans', sans-serif;
 }
 #loputkategoriat {
+    background-color:transparent;
     font-family: 'Ropa Sans', sans-serif;
-    border:2px solid white; 
+    border:2px solid black; 
     font-size: 18px;
 }
 
 #loputkategoriat a:hover{
-    background-color:white;
+    background-color:black;
     font-family: 'Ropa Sans', sans-serif;
 }
 
@@ -391,4 +394,3 @@ background-image: linear-gradient(to bottom, #434343 0%, black 100%);
 @import "bulma/sass/grid/columns"
 @import "bulma/sass/utilities/_all"
 @import "bulma/sass/elements/button.sass"
-
