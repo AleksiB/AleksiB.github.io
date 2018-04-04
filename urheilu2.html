@@ -14,6 +14,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="hover.css">
     <link rel="stylesheet" type="text/css" href="urheilu.css">
     <link rel="stylesheet" type="text/css" href="mystyles.scss">
     
@@ -27,32 +28,22 @@
   </head>
   <body>
   <div class="container">
-     <!-----HERO ----> 
-  <section class="hero is-primary">
-      
-  <div class="hero-body">
-    
-<nav class="navbar" role="navigation" aria-label="dropdown navigation">
-<div class="container">
-<div class="navbar-brand">
-<h1 style="font-family: 'Caveat', cursive; font-size: 50px; color:white;" >
-   
-</h1>
-    
-          </div>
-        <div id="navbarMenu" class="navbar-menu">  
+  <div id="navbarMenu" class="navbar-menu">  
         <div class="navbar-end">
-       <a class="navbar-item has-text-white" style="background-color: transparent;" href="index.html" >
+            
+        <a class="navbar-item has-text-white" style="background-color: transparent;" href="index.html">
         Mitä tehtäis?
         </a>
-<div class="navbar-item has-dropdown is-hoverable" id="alasvetovalikko">
+            
+        <div class="navbar-item has-dropdown is-hoverable" id="alasvetovalikko">
        
     
         <a class="navbar-link" style="color:white; background-color:transparent;">
         Kategoriat
         </a>
-        <div class="navbar-dropdown" id="loputkategoriat" style="background-color:transparent;">
-        <a class="navbar-item has-text-white is active" >
+            
+        <div class="navbar-dropdown" id="loputkategoriat">
+        <a class="navbar-item has-text-white"  href="urheilu2.html" >
         Liikunta
         </a>
         <a class="navbar-item has-text-white" href="viihde2.html">
@@ -65,20 +56,61 @@
         <a class="navbar-item has-text-white" href="rentoutuminen2.html">
         Rentoutuminen
         </a>
+        
         </div>
     
         </div>
 
-            <a class="navbar-item has-text-white" style="background-color: transparent;" href="yritys.html">
+        <a class="navbar-item has-text-white " style="background-color: transparent;" href="yritys.html">
         Tietoa meistä
         </a>
-             <a class="navbar-item has-text-white" style="background-color: transparent;" href="palaute.html">
+        <a class="navbar-item has-text-white" style="background-color: transparent;" href="palaute.html">
         Ota yhteyttä
         </a> 
+        
         </div>
         </div>
+     
+        <div class="navbar-burger burger has-text-white" data-target="navbarMenu" style="background-color:;">
+        <span></span>
+        <span></span>
+        <span></span>
         </div>
-      </nav>
+        
+        
+<script>
+      
+document.addEventListener('DOMContentLoaded', function () {
+
+  // Get all "navbar-burger" elements
+  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Check if there are any nav burgers
+  if ($navbarBurgers.length > 0) {
+
+    // Add a click event on each of them
+    $navbarBurgers.forEach(function ($el) {
+      $el.addEventListener('click', function () {
+
+        // Get the target from the "data-target" attribute
+        var target = $el.dataset.target;
+        var $target = document.getElementById(target);
+
+        // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+        $el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+
+});
+</script>
+  <section class="hero is-primary">
+      
+  <div class="hero-body">
+    
+
 
 <div class="container1">
       <h1 class="title is-1 has-text-white">Liikunta</h1>
@@ -192,13 +224,6 @@
         </div>
         </div>  
        
-      <div>
-    <form action="/action_page.php" id="rullanappi">
- <a class="button is-primary is-medium " id="rulla">
-  Päätä puolestani!
- </a>
-</form>
-    </div>
       <br> 
       </div>
 
