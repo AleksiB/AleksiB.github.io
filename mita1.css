@@ -4,10 +4,10 @@ html, body {
     background-image: linear-gradient(to bottom, #434343 0%, black 100%); 
     background-repeat:no-repeat;
     font-family: 'Ropa Sans', sans-serif;
+}    
+#navbarMenu.navbar-menu.is-active {
+    background-color:black;
 }
-
-
-    
 
 .hero {
     
@@ -30,12 +30,6 @@ html, body {
     font-family: 'Ropa Sans', sans-serif;
     
 }
-
-
-
-
-
-
 
 .navbar-menu{
     font-size:25px;
@@ -218,15 +212,13 @@ color:white;
 } 
 #loputkategoriat {
     font-size: 18px;
-border:2px solid white;
-    
- background-color:transparent;
+    border:2px solid black;
+    background-color:transparent;
    
-    
-}
+    }
 
 #loputkategoriat a:hover {
-    background-color:white;
+    background-color:black;
     
 }
 
@@ -334,12 +326,6 @@ footer a {
 }
 
 
-.dropdown{
-display:none;
-text-align: center;
-background-color: transparent;
-}
-
  .tile {
         background-repeat: no-repeat;
         background-size:cover;
@@ -350,13 +336,6 @@ background-color: transparent;
   .container {
     width: 100%; 
   }
-    
-    .dropdown{
-        display:block;
-    }
-    .dropdown:hover .dropdown-content {
-    display: block;
-}
     .modal-content{
     
     max-width:725px;
