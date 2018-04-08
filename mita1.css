@@ -18,9 +18,16 @@ html, body {
 }
 .hero-body {
     background-image: url(yritysbanneri.png);
+    background-position: center;
     
 }
-
+@media only screen and (max-width: 1233px) {
+    .hero-body {
+        background-image: url(yritysbanneri.png);
+        background-size: 99%;
+        background-repeat: no-repeat;
+    }
+}
 .banneritekstit{
     max-height: 350px;
 }
