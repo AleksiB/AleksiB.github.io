@@ -16,6 +16,15 @@ html, body {
    height:450px;
 
 }
+
+#yritysbanneri {
+    
+   text-align: center;
+   border: 5px solid white;
+   height:300px;
+
+}
+
 .hero-body {
     background-image: url(yritysbanneri.png);
     background-position: center;
@@ -178,6 +187,7 @@ max-height: 100%;
     position: relative;
     overflow: hidden;
 }
+
     .slide {
         
         position: absolute;
