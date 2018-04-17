@@ -342,6 +342,12 @@ footer a {
     height: 350px; 
     width: 1200px;
 }
+#viikontekeminen2{
+    background-image: url(hieronta.jpeg); 
+    background-position: center; 
+    height: 350px; 
+    width: 1200px;
+}
 
 
  .tile {
