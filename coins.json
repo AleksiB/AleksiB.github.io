@@ -1,0 +1,7 @@
+{
+  "coins": [
+    { "title": "Bitcoin", "symbol": "BTC", "price": "8648 USD"},
+    { "title": "Litecoin", "symbol": "LTC", "price": "0.061 USD"},
+    { "title": "Verge", "symbol": "XVG", "price": "145.5 USD"},
+  ]
+}
